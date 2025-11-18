@@ -27,11 +27,13 @@ a:hover {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .navigation_list {
     display: flex;
     list-style-type: none;
     gap: 50px;
+    flex-wrap: wrap;
 }
 main {
     display: flex;
@@ -109,4 +111,17 @@ select:focus {
 .card h2 {
     color:#4A3F3D;
     text-transform: uppercase;
+}
+@media(max-width: 640px) {
+    .select-button {
+        width: 150px;
+        height: 100px;
+        font-size: 1rem;
+    }
+    .main_navigation {
+        display: block;
+    }
+    .navigation_list {
+        display: block;
+    }
 }
