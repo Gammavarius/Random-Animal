@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html lang="ru">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Случайный подбор фото животного по странам и частям света">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+            <title>Инструмент для случайного подбора животных</title>
+            <link rel="icon" href="favicon.ico">
+            <link rel="stylesheet" href="style.css">
+        </head>
+            <body>
+                <header class="page_header">
+                    <nav class="main_navigation">
+                        <a href="#">
+                            <img src="images/logo.svg" alt="logo" width="150">
+                        </a>
+                        <ul class="navigation_list">
+                            <li>
+                                <a href="mailto:random-zoo@travel.com">random-zoo@travel.com</a>
+                            </li>
+                            <li>
+                                <a href="tel:+77007070">7-700-500-70-70</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <main>
+                <h1>Инструмент для случайного подбора животных</h1>
+                <div class="main-selection__container">
+                    <label for="country-select">Фильтр по стране/части света:</label>
+                    <select id="country-select" name="country-name">
+                        <option value="all">Все</option>
+                    </select>
+                </div>
+                    <button type="button" class="select-button">Показать случайное животное</button>
+                <div class="image-container">
+                    <p class="explanation">Нажмите кнопку, чтобы увидеть картинку</p>
+                </div>
+                </main>
+                <footer class="page_footer">
+                    <p class="copyright">Беликова Юлия @ 2025</p>
+                </footer>
+                <script src="data.js"></script>
+                <script src="script.js"></script>
+            </body>    
+        
+    </html>
+</DOCTYPE>
